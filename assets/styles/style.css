@@ -134,7 +134,6 @@ nav .access a{
    transition: all 0.3s ease;
    background-color: var(--brand-primary);
    color: #fff;
-border: 1px solid var(--brand-primary);
 
 }
 
