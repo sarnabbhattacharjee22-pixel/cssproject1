@@ -1,4 +1,4 @@
-@media (max-width: 768px) {
+@media (max-width: 767.98px) {
 
 .drop{
     display: none;
@@ -35,6 +35,11 @@ top: 0;
 }
 #hero .image{
     text-align: left;
+}
+
+#hero .image img{
+    width: 100%;
+    height: auto;
 }
 
 #hero .content{
