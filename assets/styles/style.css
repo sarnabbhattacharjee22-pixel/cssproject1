@@ -325,3 +325,323 @@ padding-top: 32px;
 
 
 /* Hero section end */
+
+
+
+
+
+
+
+
+
+
+
+
+/* ===============================
+   Shared Section Titles 
+   =============================== */
+.section-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.section-title h2 {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: var(--neutral-d-grey);
+    margin-bottom: 8px;
+}
+
+.section-title p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--neutral-grey);
+}
+
+/* ===============================
+   Clients Section Start 
+   =============================== */
+#clients {
+    background-color: var(--neutral-white);
+    padding: 40px 0;
+}
+
+.client-logos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px 0;
+}
+
+.client-logos img {
+    height: 48px;
+    object-fit: contain;
+}
+
+/* ===============================
+   Community Section Start 
+   =============================== */
+#community {
+    background-color: var(--neutral-white);
+    padding: 40px 0 80px 0;
+}
+
+.community-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.card {
+    background: var(--neutral-white);
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.05); 
+    border-radius: 8px;
+    padding: 24px 32px;
+    text-align: center;
+    width: 31%; 
+}
+
+.card .icon {
+    margin: 0 auto 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 65px;
+    height: 65px;
+}
+
+.card h3 {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    color: var(--neutral-d-grey);
+    margin-bottom: 8px;
+}
+
+.card p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--neutral-grey);
+}
+
+
+
+/* =======Pixelgrade Section Start======== */
+#pixelgrade {
+    background-color: var(--neutral-white);
+    padding: 60px 0;
+}
+
+#pixelgrade .row {
+    align-items: center;
+    justify-content: space-between;
+}
+
+#pixelgrade .image {
+    width: 45%;
+    text-align: center;
+}
+
+#pixelgrade .image img {
+    max-width: 100%;
+    height: auto;
+}
+
+#pixelgrade .content {
+    width: 50%;
+}
+
+#pixelgrade .content h2 {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: var(--neutral-d-grey);
+    margin-bottom: 16px;
+}
+
+#pixelgrade .content p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--neutral-grey);
+    margin-bottom: 32px;
+}
+
+#pixelgrade .content a {
+    display: inline-block;
+    padding: 14px 32px;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    background-color: transparent; 
+    color: var(--brand-primary);
+    position: relative;
+    outline: 2px solid var(--brand-primary);
+    z-index: 1;
+}
+
+#pixelgrade .content a::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 100%;
+    background-color: var(--brand-primary);
+    left: 0;
+    top: 0;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    z-index: -1;
+}
+
+#pixelgrade .content a:hover::before {
+    width: 100%;
+}
+
+#pixelgrade .content a:hover {
+    color: var(--neutral-white);
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ===============================
+   Business Section
+   =============================== */
+#business {
+  background-color: var(--neutral-white);
+  padding: 60px 0;
+}
+
+#business .row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#business .content {
+  width: 45%;
+}
+
+#business .content h2 {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  color: var(--neutral-d-grey);
+  margin-bottom: 8px;
+}
+
+#business .content h2 span {
+  color: var(--brand-primary);
+}
+
+#business .content p {
+  font-size: 16px;
+  color: var(--neutral-grey);
+  margin-bottom: 32px;
+}
+
+#business .stats {
+  width: 50%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px 40px;
+}
+
+#business .stat {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+#business .stat img {
+  width: 28px;
+  height: 28px;
+}
+
+#business .stat h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--neutral-d-grey);
+}
+
+#business .stat p {
+  font-size: 14px;
+  color: var(--neutral-grey);
+}
+
+
+
+
+
+/* ====== Footer Design Section=========== */
+#footer_design {
+  background-color: var(--neutral-white);
+  padding: 60px 0;
+}
+#footer_design .row {
+  align-items: center;
+  justify-content: space-between;
+}
+#footer_design .image {
+  width: 45%;
+  text-align: center;
+}
+#footer_design .content {
+  width: 50%;
+}
+#footer_design .content h2 {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  color: var(--neutral-d-grey);
+  margin-bottom: 16px;
+}
+#footer_design .content p {
+  font-size: 14px;
+  color: var(--neutral-grey);
+  margin-bottom: 32px;
+}
+#footer_design .content a {
+  display: inline-block;
+  padding: 14px 32px;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  background-color: transparent;
+  color: var(--brand-primary);
+  outline: 2px solid var(--brand-primary);
+  position: relative;
+  z-index: 1;
+}
+#footer_design .content a::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 100%;
+  background-color: var(--brand-primary);
+  left: 0;
+  top: 0;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+  z-index: -1;
+}
+#footer_design .content a:hover::before {
+  width: 100%;
+}
+#footer_design .content a:hover {
+  color: var(--neutral-white);
+}
