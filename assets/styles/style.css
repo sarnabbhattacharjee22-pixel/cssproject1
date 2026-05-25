@@ -337,9 +337,7 @@ padding-top: 32px;
 
 
 
-/* ===============================
-   Shared Section Titles 
-   =============================== */
+/* ============= Shared Section Titles ============ */
 .section-title {
     text-align: center;
     margin-bottom: 40px;
@@ -360,9 +358,7 @@ padding-top: 32px;
     color: var(--neutral-grey);
 }
 
-/* ===============================
-   Clients Section Start 
-   =============================== */
+/* ======== Clients Section Start ============= */
 #clients {
     background-color: var(--neutral-white);
     padding: 40px 0;
@@ -381,9 +377,7 @@ padding-top: 32px;
     object-fit: contain;
 }
 
-/* ===============================
-   Community Section Start 
-   =============================== */
+/* ====== Community Section Start ===== */
 #community {
     background-color: var(--neutral-white);
     padding: 40px 0 80px 0;
@@ -516,9 +510,7 @@ padding-top: 32px;
 
 
 
-/* ===============================
-   Business Section
-   =============================== */
+/* ========= Business Section ========== */
 #business {
   background-color: var(--neutral-white);
   padding: 60px 0;
