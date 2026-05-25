@@ -187,4 +187,22 @@ top: 0;
   font-size: 15px;
 }
 
+
+
+
+.container {
+  width: 100%;       
+  max-width: 100%;   
+  padding: 0 10px;   
+}
+
+.row {
+  flex-wrap: wrap;   
+}
+
+img {
+  max-width: 100%;  
+  height: auto;
+}
+
 }
