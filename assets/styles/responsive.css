@@ -37,11 +37,6 @@ top: 0;
     text-align: left;
 }
 
-#hero .image img{
-    width: 100%;
-    height: auto;
-}
-
 #hero .content{
     width: 100%;
 }
@@ -62,8 +57,134 @@ top: 0;
     display: none;
 }
 
+/* Hero section End */
 
 
+
+
+
+/* Responsive Updates for Clients & Community */
+#clients, #community {
+    padding: 30px 20px;
+}
+
+.section-title h2 {
+    font-size: 28px;
+    line-height: 36px;
+}
+
+.client-logos {
+    justify-content: center;
+    gap: 30px; 
+}
+
+.community-cards {
+    flex-direction: column; 
+    align-items: center;
+}
+
+.card {
+    width: 100%; 
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Pixelgrade */
+#pixelgrade .row {
+    flex-direction: column;
+}
+
+#pixelgrade {
+    padding: 40px 20px;
+}
+
+#pixelgrade .image, 
+#pixelgrade .content {
+    width: 100%;
+}
+
+#pixelgrade .image {
+    margin-bottom: 30px;
+}
+
+#pixelgrade .content h2 {
+    font-size: 28px;
+    line-height: 36px;
+}
+
+
+
+
+
+
+
+
+
+
+
+#business .row {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  #business .content,
+  #business .stats {
+    width: 100%;
+  }
+
+  #business .stats {
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+  }
+
+  #business .learn-more {
+    text-align: center;
+  }
+
+/*  Footer */
+#footer_design .row {
+  flex-direction: column;
+  text-align: center;
+}
+
+#footer_design {
+  padding: 40px 20px;
+}
+
+#footer_design .image,
+#footer_design .content {
+  width: 100%;
+}
+
+#footer_design .image {
+  margin-bottom: 30px;
+}
+
+#footer_design .content h2 {
+  font-size: 28px;
+  line-height: 36px;
+}
+
+#footer_design .content p {
+  font-size: 14px;
+  line-height: 22px;
+  margin-bottom: 24px;
+}
+
+#footer_design .content a {
+  padding: 12px 28px;
+  font-size: 15px;
+}
 
 }
-/* Hero section End */
